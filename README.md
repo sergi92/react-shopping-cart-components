@@ -8,7 +8,8 @@
 
 # Assembler School: React Shopping Cart Project
 
-> In this project you will learn how to create a React.js app step-by-step.
+In this project you will learn how to create a React.js and how to apply all the
+important concepts.
 
 ## Getting Started
 
@@ -39,7 +40,7 @@ The branches follow a naming strategy like the following:
   section
 - `{NN}-{section-name}-solution`: includes the solution of the section
 
-### Fetching all Branches
+### Fetching All the Branches
 
 In order to fetch all the remote branches in the repository, you can use the
 following command:
@@ -48,7 +49,7 @@ following command:
 $ git fetch --all
 ```
 
-# List both remote-tracking branches and local branches
+### List Both Remote Tracking Branches and Local Branches
 
 ```sh
 $ git branch --all
@@ -71,25 +72,17 @@ Run the following command in your terminal after cloning the main repo:
 $ npm install
 ```
 
-### Running the tests
+### Running the Tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+@TODO
 
 ```
-Give an example
+$ npm run test:components
 ```
 
-### And coding style tests
+### Git `precommit` and `prepush` Hooks
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+@todo
 
 ## Deployment
 
@@ -97,34 +90,27 @@ Give an example
 
 ## Technologies used
 
-@TODO
-
-- HTML
-- CSS
-- JS
-- LocalStorage
-- ...
+- `React.js`
+- `@testing-library/react`
+- `eslint`
+- `prettier`
+- `lint-staged`
+- `husky`
 
 ## Project requirements
 
----
+This is an overview of the main requirements of this project. The exact ones are
+found in the doc that the academic team will provide you.
 
-#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
-
-This section details the **main requirements** of the project that the student
-must take into account when they deliver their solution.
-
-A more **detailed description with all the requirements and steps** that the
-students need to complete for the project will be included in the **Google Docs
-version of the requirements document.**
-
-**Here are some examples of project requirements:**
-
----
-
-- You must develop this project using a single HTML page
-- You cannot use third-party libraries
-- You must use semantic HTML5 elements for all the contents of the application
+- You must follow all the instructions of the project step-by-step
+- You should always try to solve them by yourself before asking for help
+- You should always help your team members and fellow students of the master so
+  that you can all learn together and become better software developers and team
+  members
+- You must finish all the steps that are marked as `Required`
+- You must use semantic HTML5 elements for all the markup of the application
+- Once you are done, you can move on to the optional ones that are marked as
+  `Extra 💯`
 
 ## Project delivery
 
@@ -134,22 +120,8 @@ To deliver this project you must follow the steps indicated in the document:
 
 ## Resources
 
----
-
-#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
-
-This section include all the main resources that the students should check for
-learning more about the technologies they are using or that might apply to their
-project.
-
-**Here are some examples of resources:**
-
----
-
-- [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
-- [JavaScript Dates](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date)
-- [LocalStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-- [...](...)
+- [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
+- [reactjs.org](https://reactjs.org/)
 
 ## License
 
